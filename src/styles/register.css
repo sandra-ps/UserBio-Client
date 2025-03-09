@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #f5f5f5; */
+    border-radius: 10px;
+  
+}
+.register-btn {
+    height: 50px; 
+    width: 100%; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+}
+.register-text{
+    font-size: 2.5rem;
+    font-family: "Poppins", serif;
+}
+.para{
+
+    font-family: "Poppins", serif;
+}
+
+/* Base styles */
+.banner-div {
+    background-image: url('/src/assets/images/banner.png');
+    background-size: contain; /* Changed from cover to contain */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 30px;
+    /* Use aspect-ratio instead of fixed height */
+    aspect-ratio: 16 / 9;
+    height: 100vh;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .banner-div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-div {
+        display: none;
+    }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1024px) {
+    .banner-div {
+       
+        background-size: cover;
+    }
+}
+
+/* For extra large screens */
+@media screen and (min-width: 1440px) {
+    .banner-div {
+        background-size: cover;
+      
+        max-height: 100vh;
+    }
+}

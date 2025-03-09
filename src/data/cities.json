@@ -1,0 +1,15 @@
+{
+  "Thiruvananthapuram": ["Kovalam", "Neyyattinkara"],
+  "Kollam": ["Chavara", "Punalur"],
+  "Ernakulam": ["Aluva", "Perumbavoor"],
+  "Kozhikode": ["Vadakara", "Feroke"],
+  "Chennai": ["Guindy", "T. Nagar"],
+  "Coimbatore": ["Gandhipuram", "Peelamedu"],
+  "Madurai": ["Thirunagar", "Anna Nagar"],
+  "Bangalore": ["Whitefield", "Koramangala"],
+  "Mysore": ["Kuvempunagar", "Vijayanagar"],
+  "Hubli": ["Keshwapur", "Gokul Road"],
+  "Mumbai": ["Andheri", "Bandra"],
+  "Pune": ["Shivajinagar", "Hinjewadi"],
+  "Nagpur": ["Dharampeth", "Sitabuldi"]
+}
